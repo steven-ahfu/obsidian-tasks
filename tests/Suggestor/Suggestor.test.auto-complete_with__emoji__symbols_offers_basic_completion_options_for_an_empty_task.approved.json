@@ -1,0 +1,27 @@
+[
+  {
+    "suggestionType": "empty",
+    "displayText": "⏎",
+    "appendText": "\n"
+  },
+  {
+    "displayText": "📅 due date",
+    "appendText": "📅 "
+  },
+  {
+    "displayText": "⏰ reminder date",
+    "appendText": "⏰ "
+  },
+  {
+    "displayText": "🛫 start date",
+    "appendText": "🛫 "
+  },
+  {
+    "displayText": "⏳ scheduled date",
+    "appendText": "⏳ "
+  },
+  {
+    "displayText": "🆔 Task ID",
+    "appendText": "🆔"
+  }
+]

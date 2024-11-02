@@ -1,0 +1,26 @@
+[
+  {
+    "displayText": "due:: due date",
+    "appendText": "due:: "
+  },
+  {
+    "displayText": "reminder:: reminder date",
+    "appendText": "reminder:: "
+  },
+  {
+    "displayText": "start:: start date",
+    "appendText": "start:: "
+  },
+  {
+    "displayText": "scheduled:: scheduled date",
+    "appendText": "scheduled:: "
+  },
+  {
+    "displayText": "id:: Task ID",
+    "appendText": "id::"
+  },
+  {
+    "displayText": "dependsOn:: Task depends on ID",
+    "appendText": "dependsOn::"
+  }
+]
