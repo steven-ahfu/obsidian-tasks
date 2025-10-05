@@ -1,3 +1,5 @@
+import type { Task } from '../Task/Task';
+
 /**
  * Tasks API v1 interface
  */
@@ -29,4 +31,19 @@ export interface TasksApiV1 {
      *          if a recurring task was completed.
      */
     executeToggleTaskDoneCommand: (line: string, path: string) => string;
+
+    /**
+     * @param task - task to toggle
+     *
+     * @returns {Task} A promise that contains the Markdown string for the task entered
+     */
+    toggleTask(task: Task): Promise<Task[]>;
+
+    /**
+     * @param task - task to toggle
+     *
+     * @returns {Promise<Task[]>} A promise that contains the Markdown string for the task entered
+     */
+
+    mapObjToTasks(objTasks: Task[]): Task[];
 }
